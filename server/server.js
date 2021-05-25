@@ -8,9 +8,9 @@ const { EventEmitter } = require("events");
 
 app.use(express.static(path.join(__dirname, '../frontend')))
 
-io.on('connection', ioClient => {
-    console.log('new connection')
-});
+// io.on('connection', ioClient => {
+//     console.log('new connection')
+// });
 
 server.listen(3000);
 
