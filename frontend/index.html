@@ -54,9 +54,7 @@
               <a id="infoButton" class="button is-light">
                 О проекте
               </a>
-              <a class="button is-light" href="https://www.donationalerts.com/r/alexkad58">
-                Войти на MeowSMP
-              </a>
+              <button class="button is-light" onclick="openInNewTab('https://www.donationalerts.com/r/alexkad58');">Войти на MeowSMP</button>
             </div>
           </div>
         </div>
@@ -66,7 +64,7 @@
     
       <section class="section is-medium has-text-centered">
         <div class="columns">
-          <div class="is-three-fifths is-offset-one-fifth">
+          <div class="column is-three-fifths is-offset-one-fifth">
             <div class="columns">
               <div class="column">
                 <iframe src="https://discord.com/widget?id=671413177279447115&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
@@ -124,7 +122,7 @@
       <section class="section">
         <div class="columns is-mobile">
           <div class="column is-half is-offset-one-quarter">
-            <button class="button is-primary is-large is-fullwidth" href="https://www.donationalerts.com/r/alexkad58">Войти на MeowSMP</button>
+            <button class="button is-primary is-large is-fullwidth" onclick="openInNewTab('https://www.donationalerts.com/r/alexkad58');">Войти на MeowSMP</button>
           </div>
         </div>
       </section>
@@ -141,5 +139,10 @@
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="index.js"></script>
+    <script>
+      function openInNewTab(url) {
+        window.open(url, '_blank').focus();
+      }
+    </script>
 </body>
 </html>
