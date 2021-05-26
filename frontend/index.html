@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>MeowSMP</title>
     <link rel="icon" href="src/icon.png">
@@ -36,25 +37,15 @@
         <a id="logo" class="navbar-item" href="src/logo.png">
           <img src="src/logo.png" width="164" height="28">
         </a>
-    
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
       </div>
-    
       <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-        </div> 
-    
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
-              <a id="infoButton" class="button is-light">
+              <a id="infoButton is-unselectable" class="button is-light">
                 О проекте
               </a>
-              <button class="button is-light" onclick="openInNewTab('https://www.donationalerts.com/r/alexkad58');">Войти на MeowSMP</button>
+              <button class="button is-light is-unselectable" onclick="openInNewTab('https://www.donationalerts.com/r/alexkad58');">Войти на MeowSMP</button>
             </div>
           </div>
         </div>
@@ -62,87 +53,84 @@
     </nav>
   </section>
     
-      <section class="section is-medium has-text-centered">
+  <section class="section is-medium has-text-centered">
+    <div class="columns">
+      <div class="column is-three-fifths is-offset-one-fifth">
         <div class="columns">
-          <div class="column is-three-fifths is-offset-one-fifth">
-            <div class="columns">
-              <div class="column is-half">
-                <h1 class="title">Версия: <strong>1.16.5</strong></h1>
-                <h2 class="subtitle">
-                  Установлены различные датапаки и плагины для комфортной игры на сервере! 
-                </h2>
-                <h2 class="subtitle">
-                  Присоединяйтесь к нашему сообществу в Discord и находите новых знакомых!
-                </h2>
-              </div>
-              <div class="column">
-                <iframe src="https://discord.com/widget?id=671413177279447115&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      
-
-      <section id="info" class="section is-medium has-background-white">
-        <div class="columns">
-          <div class="column is-one-third">
-            <figure class="image is-128x128 is-pulled-right">
-              <img src="src/gif1.gif">
-            </figure>
-          </div>
-          <div class="column">
-            <h1 class="title">Что такое <strong>SMP</strong>?</h1>
+          <div class="column is-half ">
+            <h1 class="title">Версия: <strong>1.16.5</strong></h1>
             <h2 class="subtitle">
-              <strong>SMP</strong> - <strong>"Survival Multiplayer"</strong>. Все просто! Аббревиатура относится к жанру серверов, ориентированных на выживание в Minecraft, но не в одиночку, а с сообществом.
+              Установлены различные датапаки и плагины для комфортной игры на сервере! 
             </h2>
-          </div>
-        </div>
-      </section>
-
-      <section class="section is-medium has-background-light">
-        <div class="columns">
-          <div class="column is-one-quarter"></div>
-          <div class="column is-half">
-            <h1 class="title">Как к нам попасть?</h1>
             <h2 class="subtitle">
-              На сервер можно войти как с лицензией, так и без нее. Стоимость прохода на сервер составляет всего <strong>50</strong> рублей!
+              Присоединяйтесь к нашему сообществу в Discord и находите новых знакомых!
             </h2>
           </div>
           <div class="column">
-            <figure class="image is-128x128 is-pulled-left">
-              <img src="src/gif2.gif">
-            </figure>
-            
+            <iframe src="https://discord.com/widget?id=671413177279447115&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
+  <section id="info" class="section is-medium has-background-white">
+    <div class="columns">
+      <div class="column is-one-third">
+        <figure class="image is-128x128 is-pulled-right">
+          <img src="src/gif1.gif">
+        </figure>
+      </div>
+      <div class="column">
+        <h1 class="title">Что такое <strong>SMP</strong>?</h1>
+        <h2 class="subtitle">
+          <strong>SMP</strong> - <strong>"Survival Multiplayer"</strong>. Все просто! Аббревиатура относится к жанру серверов, ориентированных на выживание в Minecraft, но не в одиночку, а с сообществом.
+        </h2>
+      </div>
+    </div>
+  </section>
 
-      <section class="section">
-        <div class="columns is-mobile">
-          <div class="column is-half is-offset-one-quarter">
-            <button class="button is-primary is-large is-fullwidth" onclick="openInNewTab('https://www.donationalerts.com/r/alexkad58');">Войти на MeowSMP</button>
-          </div>
-        </div>
-      </section>
+  <section class="section is-medium has-background-light">
+    <div class="columns">
+      <div class="column is-one-quarter"></div>
+      <div class="column is-half">
+        <h1 class="title">Как к нам попасть?</h1>
+        <h2 class="subtitle">
+          На сервер можно войти как с лицензией, так и без нее. Стоимость прохода на сервер составляет всего <strong>50</strong> рублей!
+        </h2>
+      </div>
+      <div class="column">
+        <figure class="image is-128x128 is-pulled-left">
+          <img src="src/gif2.gif">
+        </figure>
+        
+      </div>
+    </div>
+  </section>
 
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <p>
-            by <a href="https://vk.com/karaninale">alexkad58</a>. Исходный код защищен лицензией
-            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Если столкнулись с проблемой, обращайтесь к администрации в 
-            <a href="https://discord.gg/ehmPQxjdQR">Discord</a>.
-          </p>
-        </div>
-      </footer>
+  <section class="section">
+    <div class="columns is-mobile">
+      <div class="column is-half is-offset-one-quarter">
+        <button class="button is-primary is-large is-fullwidth is-unselectable" onclick="openInNewTab('https://www.donationalerts.com/r/alexkad58');">Войти на MeowSMP</button>
+      </div>
+    </div>
+  </section>
 
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="index.js"></script>
-    <script>
-      function openInNewTab(url) {
-        window.open(url, '_blank').focus();
-      }
-    </script>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        by <a href="https://vk.com/karaninale">alexkad58</a>. Исходный код защищен лицензией
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Если столкнулись с проблемой, обращайтесь к администрации в 
+        <a href="https://discord.gg/ehmPQxjdQR">Discord</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="index.js"></script>
+  <script>
+    function openInNewTab(url) {
+      window.open(url, '_blank').focus();
+    }
+  </script>
 </body>
 </html>
