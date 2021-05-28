@@ -1,4 +1,4 @@
-// socket = io()
+socket = io()
 
 const logo = document.getElementById('logo')
 const href = window.location.href
